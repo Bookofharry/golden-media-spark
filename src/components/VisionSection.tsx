@@ -41,7 +41,7 @@ const VisionSection = () => {
             { emoji: "🌍", title: "Culture-First Design", desc: "Every feature is built to celebrate diversity while uniting humanity around shared values." },
             { emoji: "✨", title: "The Next Generation", desc: "Empowering young creators to define the cultural narrative of tomorrow." },
           ].map(({ emoji, title, desc }) => (
-            <div key={title} className="card-dark rounded-2xl p-6 border border-gold/15 hover:border-gold/35 transition-all duration-300">
+            <div key={title} className="card-dark rounded-2xl p-6 transition-all duration-300">
               <div className="text-3xl mb-4">{emoji}</div>
               <h4 className="text-foreground font-semibold mb-2" style={{ fontFamily: "Cinzel, serif" }}>{title}</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{desc}</p>

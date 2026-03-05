@@ -72,7 +72,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-card/95 backdrop-blur-xl border-t border-border px-6 py-6 flex flex-col gap-4">
+        <div className="md:hidden bg-card/95 backdrop-blur-xl px-6 py-6 flex flex-col gap-4">
           {links.map((l) => (
             <a
               key={l.href}

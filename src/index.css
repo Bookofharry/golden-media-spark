@@ -126,7 +126,6 @@
 
   .card-dark {
     background: var(--gradient-card);
-    border: 1px solid hsl(var(--border));
     box-shadow: var(--shadow-card);
   }
 

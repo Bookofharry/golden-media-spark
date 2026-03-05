@@ -46,7 +46,7 @@ const ProblemSection = () => {
               key={title}
               className="card-dark rounded-2xl p-8 group hover:border-gold/30 transition-all duration-500 hover:shadow-gold"
             >
-              <div className="w-14 h-14 rounded-xl bg-destructive/10 border border-destructive/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 rounded-xl bg-destructive/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Icon className="text-destructive" size={24} />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3" style={{ fontFamily: "Cinzel, serif" }}>
