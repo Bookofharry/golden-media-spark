@@ -30,7 +30,7 @@ const Footer = () => {
               {["𝕏", "in", "▶", "📷"].map((social) => (
                 <button
                   key={social}
-                  className="w-9 h-9 rounded-full border border-gold/30 text-gold text-sm flex items-center justify-center hover:bg-gold/10 hover:border-gold transition-all duration-300"
+                  className="w-9 h-9 rounded-full text-gold text-sm flex items-center justify-center hover:bg-gold/10 transition-all duration-300"
                 >
                   {social}
                 </button>
