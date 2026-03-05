@@ -60,7 +60,7 @@ const SolutionSection = () => {
         {/* Platform type pills */}
         <div className="flex flex-wrap justify-center gap-3 mb-16">
           {["Safe Social Media", "Clean Streaming", "Creator Ecosystem"].map((tag) => (
-            <span key={tag} className="px-4 py-2 rounded-full border border-gold/40 text-gold text-sm font-medium bg-gold/5">
+            <span key={tag} className="px-4 py-2 rounded-full text-gold text-sm font-medium bg-gold/5">
               {tag}
             </span>
           ))}
@@ -74,7 +74,7 @@ const SolutionSection = () => {
               className="card-dark rounded-2xl p-7 group hover:border-gold/40 transition-all duration-500 hover:shadow-gold hover:-translate-y-1"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
-              <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/20 flex items-center justify-center mb-5 group-hover:bg-gold/20 group-hover:scale-110 transition-all duration-300">
+              <div className="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center mb-5 group-hover:bg-gold/20 group-hover:scale-110 transition-all duration-300">
                 <Icon className="text-gold" size={22} />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2" style={{ fontFamily: "Cinzel, serif" }}>

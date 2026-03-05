@@ -47,7 +47,7 @@ const HowItWorksSection = () => {
               <div key={step} className="relative text-center group">
                 {/* Step circle */}
                 <div className="relative w-32 h-32 mx-auto mb-6">
-                  <div className="absolute inset-0 rounded-full border-2 border-gold/20 group-hover:border-gold/50 transition-all duration-500" />
+                  <div className="absolute inset-0 rounded-full transition-all duration-500" />
                   <div className="absolute inset-3 rounded-full bg-gold/5 group-hover:bg-gold/10 transition-all duration-500" />
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
                     <Icon className="text-gold mb-1 group-hover:scale-110 transition-transform duration-300" size={28} />

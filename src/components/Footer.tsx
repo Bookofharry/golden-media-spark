@@ -7,7 +7,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative border-t border-border bg-secondary/20">
+    <footer className="relative bg-secondary/20">
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
@@ -30,7 +30,7 @@ const Footer = () => {
               {["𝕏", "in", "▶", "📷"].map((social) => (
                 <button
                   key={social}
-                  className="w-9 h-9 rounded-full border border-gold/30 text-gold text-sm flex items-center justify-center hover:bg-gold/10 hover:border-gold transition-all duration-300"
+                  className="w-9 h-9 rounded-full text-gold text-sm flex items-center justify-center hover:bg-gold/10 transition-all duration-300"
                 >
                   {social}
                 </button>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
             © {year} Cloud X Creative Hub Limited. Reg. No. 8383318. All rights reserved.
           </p>

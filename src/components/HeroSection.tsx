@@ -23,7 +23,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/40 bg-gold/10 mb-8 animate-fade-up">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 mb-8 animate-fade-up">
           <div className="w-2 h-2 rounded-full bg-gold animate-pulse" />
           <span className="text-gold text-xs tracking-widest uppercase font-medium">Launching Soon — Join the Waitlist</span>
         </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#vision"
-            className="px-8 py-4 rounded-full border border-gold/50 text-gold font-semibold tracking-wide text-base hover:bg-gold/10 hover:border-gold transition-all duration-300 flex items-center justify-center gap-2"
+            className="px-8 py-4 rounded-full text-gold font-semibold tracking-wide text-base hover:bg-gold/10 transition-all duration-300 flex items-center justify-center gap-2"
           >
             <Play size={16} fill="currentColor" />
             Explore the Vision

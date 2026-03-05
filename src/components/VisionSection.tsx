@@ -10,8 +10,8 @@ const VisionSection = () => {
       />
 
       {/* Decorative circles */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full border border-gold/5" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full border border-gold/8" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full" />
 
       <div className="relative max-w-4xl mx-auto">
         <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">Our Vision</span>
@@ -41,7 +41,7 @@ const VisionSection = () => {
             { emoji: "🌍", title: "Culture-First Design", desc: "Every feature is built to celebrate diversity while uniting humanity around shared values." },
             { emoji: "✨", title: "The Next Generation", desc: "Empowering young creators to define the cultural narrative of tomorrow." },
           ].map(({ emoji, title, desc }) => (
-            <div key={title} className="card-dark rounded-2xl p-6 border border-gold/15 hover:border-gold/35 transition-all duration-300">
+            <div key={title} className="card-dark rounded-2xl p-6 transition-all duration-300">
               <div className="text-3xl mb-4">{emoji}</div>
               <h4 className="text-foreground font-semibold mb-2" style={{ fontFamily: "Cinzel, serif" }}>{title}</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{desc}</p>

@@ -51,7 +51,7 @@ const AboutSection = () => {
           </div>
 
           {/* Right: card with contact info */}
-          <div className="card-dark rounded-2xl p-8 border border-gold/20">
+          <div className="card-dark rounded-2xl p-8">
             <div className="w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center mb-6 shadow-gold mx-auto">
               <span className="text-background text-2xl font-bold" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
             </div>

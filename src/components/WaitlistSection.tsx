@@ -38,7 +38,7 @@ const WaitlistSection = () => {
         </p>
 
         {submitted ? (
-          <div className="card-dark rounded-2xl p-12 border border-gold/30 animate-scale-in">
+          <div className="card-dark rounded-2xl p-12 animate-scale-in">
             <CheckCircle className="text-gold mx-auto mb-4" size={56} />
             <h3 className="text-2xl font-bold text-foreground mb-3" style={{ fontFamily: "Cinzel, serif" }}>
               You're on the List!
@@ -51,7 +51,7 @@ const WaitlistSection = () => {
         ) : (
           <form
             onSubmit={handleSubmit}
-            className="card-dark rounded-2xl p-8 border border-gold/20"
+            className="card-dark rounded-2xl p-8"
           >
             <div className="space-y-4 mb-6">
               <div>
@@ -64,7 +64,7 @@ const WaitlistSection = () => {
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/30 transition-all duration-300"
+                  className="w-full px-4 py-3 rounded-xl bg-muted text-foreground placeholder:text-muted-foreground focus:outline-none transition-all duration-300"
                 />
               </div>
               <div>
@@ -77,7 +77,7 @@ const WaitlistSection = () => {
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold/60 focus:ring-1 focus:ring-gold/30 transition-all duration-300"
+                  className="w-full px-4 py-3 rounded-xl bg-muted text-foreground placeholder:text-muted-foreground focus:outline-none transition-all duration-300"
                 />
               </div>
             </div>
