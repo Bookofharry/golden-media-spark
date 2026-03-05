@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-4">
           <a
             href="#waitlist"
-            className="px-5 py-2 rounded-full bg-gradient-gold text-background font-semibold text-sm tracking-wide hover:opacity-90 transition-all duration-300 shadow-gold"
+            className="px-5 py-2 rounded-full bg-gradient-gold text-background font-semibold text-sm tracking-wide hover:opacity-90 transition-all duration-300"
           >
             Join Waitlist
           </a>
