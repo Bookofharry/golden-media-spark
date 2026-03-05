@@ -51,7 +51,7 @@ const WaitlistSection = () => {
         ) : (
           <form
             onSubmit={handleSubmit}
-            className="card-dark rounded-2xl p-8 border border-gold/20"
+            className="card-dark rounded-2xl p-8"
           >
             <div className="space-y-4 mb-6">
               <div>
