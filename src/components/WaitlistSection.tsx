@@ -38,7 +38,7 @@ const WaitlistSection = () => {
         </p>
 
         {submitted ? (
-          <div className="card-dark rounded-2xl p-12 border border-gold/30 animate-scale-in">
+          <div className="card-dark rounded-2xl p-12 animate-scale-in">
             <CheckCircle className="text-gold mx-auto mb-4" size={56} />
             <h3 className="text-2xl font-bold text-foreground mb-3" style={{ fontFamily: "Cinzel, serif" }}>
               You're on the List!
