@@ -60,7 +60,7 @@ const SolutionSection = () => {
         {/* Platform type pills */}
         <div className="flex flex-wrap justify-center gap-3 mb-16">
           {["Safe Social Media", "Clean Streaming", "Creator Ecosystem"].map((tag) => (
-            <span key={tag} className="px-4 py-2 rounded-full border border-gold/40 text-gold text-sm font-medium bg-gold/5">
+            <span key={tag} className="px-4 py-2 rounded-full text-gold text-sm font-medium bg-gold/5">
               {tag}
             </span>
           ))}
