@@ -1,3 +1,5 @@
+import { Film, Globe, Zap } from "lucide-react";
+
 const VisionSection = () => {
   return (
     <section id="vision" className="relative py-32 px-6 overflow-hidden text-center">
@@ -37,12 +39,14 @@ const VisionSection = () => {
         {/* Vision pillars */}
         <div className="grid sm:grid-cols-3 gap-6 text-left">
           {[
-            { emoji: "🎬", title: "Media as Mission", desc: "Using film, digital content, and social platforms to spark meaningful change." },
-            { emoji: "🌍", title: "Culture-First Design", desc: "Every feature is built to celebrate diversity while uniting humanity around shared values." },
-            { emoji: "✨", title: "The Next Generation", desc: "Empowering young creators to define the cultural narrative of tomorrow." },
-          ].map(({ emoji, title, desc }) => (
-            <div key={title} className="card-dark rounded-2xl p-6 transition-all duration-300">
-              <div className="text-3xl mb-4">{emoji}</div>
+            { icon: Film, title: "Media as Mission", desc: "Using film, digital content, and social platforms to spark meaningful change." },
+            { icon: Globe, title: "Culture-First Design", desc: "Every feature is built to celebrate diversity while uniting humanity around shared values." },
+            { icon: Zap, title: "The Next Generation", desc: "Empowering young creators to define the cultural narrative of tomorrow." },
+          ].map(({ icon: Icon, title, desc }) => (
+            <div key={title} className="card-dark rounded-2xl p-6 transition-all duration-300 group hover:-translate-y-1">
+              <div className="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-5 group-hover:bg-gold/20 group-hover:scale-110 transition-all duration-300">
+                <Icon className="text-gold" size={24} />
+              </div>
               <h4 className="text-foreground font-semibold mb-2" style={{ fontFamily: "Cinzel, serif" }}>{title}</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{desc}</p>
             </div>
