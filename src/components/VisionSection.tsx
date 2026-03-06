@@ -1,3 +1,5 @@
+import { Film, Globe, Zap } from "lucide-react";
+
 const VisionSection = () => {
   return (
     <section id="vision" className="relative py-32 px-6 overflow-hidden text-center">
