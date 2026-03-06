@@ -1,4 +1,4 @@
-import { Upload, Search, Sparkles } from "lucide-react";
+import { Upload, Search, Globe } from "lucide-react";
 
 const steps = [
   {
@@ -14,7 +14,7 @@ const steps = [
     desc: "Families and communities browse curated feeds, channels, and streaming libraries — all guaranteed family-friendly.",
   },
   {
-    icon: Sparkles,
+    icon: Globe,
     step: "03",
     title: "Stories Inspire Change Across Cultures",
     desc: "Meaningful narratives travel the globe, reshaping culture one story at a time — building a more inspired world.",
