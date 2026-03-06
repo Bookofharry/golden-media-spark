@@ -1,4 +1,4 @@
-import { Globe, Camera, Megaphone, Clapperboard } from "lucide-react";
+import { Globe, Camera, Megaphone, Clapperboard, Phone, Mail, MapPin, Youtube } from "lucide-react";
 
 const pillars = [
   { icon: Clapperboard, label: "Filmmaking" },
@@ -52,37 +52,56 @@ const AboutSection = () => {
 
           {/* Right: card with contact info */}
           <div className="card-dark rounded-2xl p-8">
-            <div className="w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center mb-6 shadow-gold mx-auto">
+            <div className="w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center mb-6 mx-auto">
               <span className="text-background text-2xl font-bold" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
             </div>
 
-            <div className="text-center mb-8">
-              <div className="text-gold text-xs tracking-[0.3em] uppercase mb-2">Reg. No.</div>
-              <div className="text-foreground font-bold text-lg" style={{ fontFamily: "Cinzel, serif" }}>8383318</div>
+            <div className="text-center mb-2">
+              <div className="text-foreground font-bold text-lg" style={{ fontFamily: "Cinzel, serif" }}>Cloud X Creative Hub</div>
+              <p className="text-gold text-xs tracking-[0.2em] uppercase mt-1">… re-culturing the world</p>
             </div>
 
+            <div className="h-px bg-gold/10 my-6" />
+
             <div className="space-y-4">
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="text-gold text-xl">📞</div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
+                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Phone className="text-gold" size={15} />
+                </div>
                 <div>
-                  <div className="text-muted-foreground text-xs tracking-wide">Phone</div>
-                  <div className="text-foreground font-medium">+234 802 - 603 - 9895</div>
+                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Phone</div>
+                  <div className="text-foreground font-medium text-sm">(+234) 802 – 603 – 9895</div>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="text-gold text-xl">✉️</div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
+                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Mail className="text-gold" size={15} />
+                </div>
                 <div>
-                  <div className="text-muted-foreground text-xs tracking-wide">Email</div>
-                  <a href="mailto:cloudxcreativehub@gmail.com" className="text-gold font-medium hover:underline">
-                    cloudxcreativehub@gmail.com
+                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Email</div>
+                  <a href="mailto:Exceptionalcloud@gmail.com" className="text-gold font-medium text-sm hover:underline">
+                    Exceptionalcloud@gmail.com
                   </a>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="text-gold text-xl">📍</div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
+                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <MapPin className="text-gold" size={15} />
+                </div>
                 <div>
-                  <div className="text-muted-foreground text-xs tracking-wide">Location</div>
-                  <div className="text-foreground font-medium">9.0142331, 7.3750877</div>
+                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Address</div>
+                  <div className="text-foreground font-medium text-sm">#7 Tudun Wada Rd., Zhidu, Lugbe FCT, Abuja, Nigeria</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
+                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Youtube className="text-gold" size={15} />
+                </div>
+                <div>
+                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">YouTube</div>
+                  <a href="https://www.youtube.com/@jefftatv" target="_blank" rel="noopener noreferrer" className="text-gold font-medium text-sm hover:underline">
+                    youtube.com/@jefftatv
+                  </a>
                 </div>
               </div>
             </div>
