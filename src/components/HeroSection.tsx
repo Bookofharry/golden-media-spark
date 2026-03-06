@@ -59,7 +59,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#vision"
-            className="px-8 py-4 rounded-full text-gold font-semibold tracking-wide text-base hover:bg-gold/10 transition-all duration-300 flex items-center justify-center gap-2"
+            className="px-8 py-4 rounded-full bg-black text-gold font-semibold tracking-wide text-base hover:opacity-90 transition-all duration-300 flex items-center justify-center gap-2"
           >
             <Play size={16} fill="currentColor" />
             Explore the Vision
