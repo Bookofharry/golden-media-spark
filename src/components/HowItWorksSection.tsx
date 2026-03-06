@@ -51,7 +51,6 @@ const HowItWorksSection = () => {
                   <div className="absolute inset-3 rounded-full bg-gold/5 group-hover:bg-gold/10 transition-all duration-500" />
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
                     <Icon className="text-gold mb-1 group-hover:scale-110 transition-transform duration-300" size={28} />
-                    <span className="text-gold/40 text-xs font-bold tracking-widest">{step}</span>
                   </div>
                   {/* Outer glow on hover */}
                   <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"
