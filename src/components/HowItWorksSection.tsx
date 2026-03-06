@@ -1,4 +1,4 @@
-import { Upload, Search, Sparkles } from "lucide-react";
+import { Upload, Search, Globe } from "lucide-react";
 
 const steps = [
   {
