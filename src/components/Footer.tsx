@@ -60,7 +60,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {year} Cloud X Creative Hub Limited. Reg. No. 8383318. All rights reserved.
+            © {year} Cloud X Creative Hub Limited. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="mailto:cloudxcreativehub@gmail.com" className="text-gold text-sm hover:underline">
