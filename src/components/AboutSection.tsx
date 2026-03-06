@@ -1,4 +1,4 @@
-import { Globe, Camera, Megaphone, Clapperboard } from "lucide-react";
+import { Globe, Camera, Megaphone, Clapperboard, Phone, Mail, MapPin, Youtube } from "lucide-react";
 
 const pillars = [
   { icon: Clapperboard, label: "Filmmaking" },
