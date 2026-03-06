@@ -53,8 +53,8 @@
     --gradient-glow: radial-gradient(ellipse at center, hsl(43 89% 53% / 0.15) 0%, transparent 70%);
 
     /* Shadows */
-    --shadow-gold: 0 0 30px hsl(43 89% 53% / 0.3), 0 0 60px hsl(43 89% 53% / 0.1);
-    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.4), 0 2px 8px hsl(0 0% 0% / 0.3);
+    --shadow-gold: 0 0 15px hsl(43 89% 53% / 0.2), 0 0 30px hsl(43 89% 53% / 0.05);
+    --shadow-card: 0 4px 12px hsl(0 0% 0% / 0.2), 0 1px 3px hsl(0 0% 0% / 0.15);
 
     --sidebar-background: 220 22% 7%;
     --sidebar-foreground: 45 20% 90%;
