@@ -47,9 +47,11 @@ const SolutionSection = () => {
           <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">The Solution</span>
         </div>
 
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-6" style={{ perspective: "800px" }}>
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-6">
           Introducing{" "}
-          <span className="shimmer-text inline-block animate-rotate-y">X-Cloud</span>
+          <span className="inline-block" style={{ perspective: "600px" }}>
+            <span className="shimmer-text inline-block animate-rotate-y">X-Cloud</span>
+          </span>
         </h2>
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6 text-lg leading-relaxed">
