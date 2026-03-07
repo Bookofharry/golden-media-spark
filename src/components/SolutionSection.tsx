@@ -49,7 +49,7 @@ const SolutionSection = () => {
 
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6">
           Introducing{" "}
-          <span className="shimmer-text inline-block animate-spin" style={{ animationDuration: "3s", animationDirection: "normal" }}>X-Cloud</span>
+          <span className="shimmer-text inline-block animate-rotate-y" style={{ perspective: "1000px" }}>X-Cloud</span>
         </h2>
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6 text-lg leading-relaxed">
