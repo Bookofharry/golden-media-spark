@@ -90,7 +90,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Address</div>
-                  <div className="text-foreground font-medium text-sm">#7 Tudun Wada Rd., Zhidu, Lugbe FCT, Abuja, Nigeria</div>
+                  <div className="text-foreground font-medium text-sm">Abuja, Nigeria</div>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
