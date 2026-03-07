@@ -1,5 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import { Play, ChevronDown } from "lucide-react";
+import { Play } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -83,10 +83,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <a href="#problem" className="absolute bottom-8 left-1/2 -translate-x-1/2 text-gold/60 hover:text-gold transition-colors animate-float">
-        <ChevronDown size={28} />
-      </a>
+      
     </section>
   );
 };

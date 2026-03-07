@@ -1,3 +1,5 @@
+import { Twitter, Linkedin, Youtube, Instagram } from "lucide-react";
+
 const Footer = () => {
   const year = new Date().getFullYear();
 
@@ -5,6 +7,13 @@ const Footer = () => {
     Platform: ["About X-Cloud", "Features", "How It Works", "Creators"],
     Company: ["About Us", "Vision", "Contact", "Press"],
   };
+
+  const socials = [
+    { icon: Twitter, label: "X (Twitter)", href: "#" },
+    { icon: Linkedin, label: "LinkedIn", href: "#" },
+    { icon: Youtube, label: "YouTube", href: "https://www.youtube.com/@jefftatv" },
+    { icon: Instagram, label: "Instagram", href: "#" },
+  ];
 
   return (
     <footer className="relative bg-secondary/20">
@@ -27,13 +36,17 @@ const Footer = () => {
             </p>
             {/* Social links */}
             <div className="flex gap-3">
-              {["𝕏", "in", "▶", "📷"].map((social) => (
-                <button
-                  key={social}
-                  className="w-9 h-9 rounded-full text-gold text-sm flex items-center justify-center hover:bg-gold/10 transition-all duration-300"
+              {socials.map(({ icon: Icon, label, href }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-9 h-9 rounded-full border border-gold/20 text-gold flex items-center justify-center hover:bg-gold/10 hover:border-gold/50 transition-all duration-300"
                 >
-                  {social}
-                </button>
+                  <Icon size={16} />
+                </a>
               ))}
             </div>
           </div>
