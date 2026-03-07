@@ -193,6 +193,10 @@
   animation: scale-in 0.6s ease-out forwards;
 }
 
+.animate-rotate-y {
+  animation: rotate-y 3s ease-in-out infinite;
+}
+
 .shimmer-text {
   background: linear-gradient(90deg, hsl(var(--gold-dark)), hsl(var(--gold-light)), hsl(var(--gold)), hsl(var(--gold-light)), hsl(var(--gold-dark)));
   background-size: 200% auto;
