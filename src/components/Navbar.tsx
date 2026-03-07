@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center shadow-gold animate-pulse-gold">
+          <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center">
             <span className="text-background font-bold text-sm" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
           </div>
           <div>
