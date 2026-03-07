@@ -1,5 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
-import { Play, ChevronDown } from "lucide-react";
+import { Play } from "lucide-react";
 
 const HeroSection = () => {
   return (
