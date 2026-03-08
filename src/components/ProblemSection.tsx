@@ -4,17 +4,17 @@ const problems = [
   {
     icon: AlertTriangle,
     title: "Toxic Content Overload",
-    desc: "Major platforms profit from outrage, division, and harmful content — prioritizing engagement over wellbeing.",
+    desc: "Major platforms profit from outrage, division, and harmful content. They prioritize engagement over the wellbeing of real people.",
   },
   {
     icon: TrendingDown,
     title: "Declining Family Values",
-    desc: "Parents struggle to find safe, age-appropriate entertainment. Children are exposed to content that erodes values.",
+    desc: "Parents struggle to find safe, age-appropriate entertainment. Children are exposed to content that quietly erodes their values.",
   },
   {
     icon: Shield,
     title: "Creators Without Purpose",
-    desc: "Talented creators who want to inspire are drowned out by algorithms that reward shock value over substance.",
+    desc: "Talented creators who want to inspire are drowned out by algorithms that reward shock value over substance and meaning.",
   },
 ];
 
