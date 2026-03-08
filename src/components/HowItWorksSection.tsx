@@ -11,13 +11,13 @@ const steps = [
     icon: Search,
     step: "02",
     title: "Community Discovers Clean Entertainment",
-    desc: "Families and communities browse curated feeds, channels, and streaming libraries — all guaranteed family-friendly.",
+    desc: "Families and communities browse curated feeds, channels, and streaming libraries. Everything on the platform is guaranteed family-friendly.",
   },
   {
     icon: Globe,
     step: "03",
     title: "Stories Inspire Change Across Cultures",
-    desc: "Meaningful narratives travel the globe, reshaping culture one story at a time — building a more inspired world.",
+    desc: "Meaningful narratives travel the globe, reshaping culture one story at a time and building a more inspired world.",
   },
 ];
 

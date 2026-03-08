@@ -4,7 +4,7 @@ const features = [
   {
     icon: Heart,
     title: "Family-Friendly Content",
-    desc: "Every piece of content is curated and verified to be safe for all ages — zero compromises.",
+    desc: "Every piece of content is curated and verified to be safe for all ages. Zero compromises.",
   },
   {
     icon: Tv2,
@@ -24,7 +24,7 @@ const features = [
   {
     icon: Star,
     title: "Positive Storytelling",
-    desc: "An algorithm that rewards meaningful, uplifting content — not just what goes viral.",
+    desc: "An algorithm that rewards meaningful, uplifting content. Not what goes viral.",
   },
   {
     icon: MessageCircle,
@@ -66,7 +66,7 @@ const SolutionSection = () => {
         </h2>
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6 text-lg leading-relaxed">
-          X-Cloud is more than a platform — it's a movement. A creator-first media ecosystem
+          X-Cloud is more than a platform. It's a movement. A creator-first media ecosystem
           designed to amplify positive voices and meaningful stories worldwide.
         </p>
 

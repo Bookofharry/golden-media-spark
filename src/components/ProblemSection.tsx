@@ -4,17 +4,17 @@ const problems = [
   {
     icon: AlertTriangle,
     title: "Toxic Content Overload",
-    desc: "Major platforms profit from outrage, division, and harmful content — prioritizing engagement over wellbeing.",
+    desc: "Major platforms profit from outrage, division, and harmful content. They prioritize engagement over the wellbeing of real people.",
   },
   {
     icon: TrendingDown,
     title: "Declining Family Values",
-    desc: "Parents struggle to find safe, age-appropriate entertainment. Children are exposed to content that erodes values.",
+    desc: "Parents struggle to find safe, age-appropriate entertainment. Children are exposed to content that quietly erodes their values.",
   },
   {
     icon: Shield,
     title: "Creators Without Purpose",
-    desc: "Talented creators who want to inspire are drowned out by algorithms that reward shock value over substance.",
+    desc: "Talented creators who want to inspire are drowned out by algorithms that reward shock value over substance and meaning.",
   },
 ];
 
@@ -37,7 +37,7 @@ const ProblemSection = () => {
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16 text-lg leading-relaxed">
           Most platforms are engineered for addiction, not inspiration. Millions of families, creators,
-          and communities are searching for something different — something real, safe, and uplifting.
+          and communities are searching for something different. Something real, safe, and uplifting.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">

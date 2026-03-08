@@ -25,13 +25,13 @@ const VisionSection = () => {
         </h2>
 
         <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed">
-          We believe that media is the most powerful force for cultural transformation in the world today.
-          X-Cloud is our platform to harness that power — channeling it toward unity, healing, inspiration,
+          We believe media is the most powerful force for cultural transformation in the world today.
+          X-Cloud is our platform to harness that power and channel it toward unity, healing, inspiration,
           and purpose-driven storytelling.
         </p>
 
         <p className="text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed">
-          From short films and documentaries to social posts and community campaigns — every story shared
+          From short films and documentaries to social posts and community campaigns, every story shared
           on X-Cloud is a seed planted in the soil of a better future. We are building the infrastructure
           for the next generation of culture-shapers.
         </p>
