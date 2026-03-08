@@ -66,7 +66,7 @@ const SolutionSection = () => {
         </h2>
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6 text-lg leading-relaxed">
-          X-Cloud is more than a platform — it's a movement. A creator-first media ecosystem
+          X-Cloud is more than a platform. It's a movement. A creator-first media ecosystem
           designed to amplify positive voices and meaningful stories worldwide.
         </p>
 
