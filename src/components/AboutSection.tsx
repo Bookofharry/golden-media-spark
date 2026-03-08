@@ -31,8 +31,8 @@ const AboutSection = () => {
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Rooted in Africa's vibrant youth and digital culture, we design strategies that merge media, art, and
-              community engagement to drive sustainable change. With expertise spanning behavioral change communication,
-              digital storytelling, environmental advocacy, and creative enterprise development — Cloud X serves as the
+              community engagement to drive sustainable change. With expertise in behavioral change communication,
+              digital storytelling, environmental advocacy, and creative enterprise development, Cloud X serves as the
               bridge between technical interventions and people-powered ownership.
             </p>
 

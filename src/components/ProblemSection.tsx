@@ -37,7 +37,7 @@ const ProblemSection = () => {
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16 text-lg leading-relaxed">
           Most platforms are engineered for addiction, not inspiration. Millions of families, creators,
-          and communities are searching for something different — something real, safe, and uplifting.
+          and communities are searching for something different. Something real, safe, and uplifting.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
