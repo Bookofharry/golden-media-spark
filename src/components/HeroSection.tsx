@@ -27,51 +27,43 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24">
         {/* Badge */}
         <div className="inline-flex mb-8 animate-fade-up" style={{ perspective: "800px" }}>
+          {/* Outer: rotating border light */}
           <div
-            className="relative inline-flex items-center gap-3 px-5 py-2.5"
-            style={{
-              background: "linear-gradient(135deg, hsl(220 30% 10% / 0.9), hsl(220 25% 7% / 0.95))",
-              border: "1px solid hsl(43 89% 53% / 0.4)",
-              borderRadius: "4px",
-              backdropFilter: "blur(12px)",
-              boxShadow: "0 0 0 1px hsl(43 89% 53% / 0.08), inset 0 1px 0 hsl(43 89% 53% / 0.15), 0 4px 24px hsl(43 89% 53% / 0.12)",
-              transform: "rotateX(6deg)",
-              transformStyle: "preserve-3d",
-            }}
+            className="badge-border-spin relative inline-flex p-[1px]"
+            style={{ borderRadius: "5px", transform: "rotateX(6deg)", transformStyle: "preserve-3d" }}
           >
-            {/* Corner accents */}
-            <span className="absolute top-0 left-0 w-2 h-2 border-t border-l border-gold" style={{ borderColor: "hsl(43 89% 53%)" }} />
-            <span className="absolute top-0 right-0 w-2 h-2 border-t border-r border-gold" style={{ borderColor: "hsl(43 89% 53%)" }} />
-            <span className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-gold" style={{ borderColor: "hsl(43 89% 53%)" }} />
-            <span className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-gold" style={{ borderColor: "hsl(43 89% 53%)" }} />
-
-            {/* Scanning shine line */}
-            <span className="absolute inset-0 overflow-hidden rounded-sm pointer-events-none">
-              <span className="absolute inset-0"
-                style={{
-                  background: "linear-gradient(105deg, transparent 40%, hsl(43 89% 53% / 0.06) 50%, transparent 60%)",
-                  backgroundSize: "200% 100%",
-                  animation: "shimmer 4s ease-in-out infinite",
-                }}
-              />
-            </span>
-
-            {/* Pulse dot */}
-            <span className="relative flex items-center justify-center w-4 h-4 flex-shrink-0">
-              <span className="absolute w-4 h-4 rounded-full animate-ping" style={{ background: "hsl(43 89% 53% / 0.3)", animationDuration: "2s" }} />
-              <span className="w-2 h-2 rounded-full" style={{ background: "hsl(43 89% 53%)", boxShadow: "0 0 8px hsl(43 89% 53% / 0.8)" }} />
-            </span>
-
-            <span className="text-gold text-xs tracking-[0.25em] uppercase font-semibold" style={{ fontFamily: "Inter, sans-serif", letterSpacing: "0.2em" }}>
-              Launching Soon.
-            </span>
-
-            {/* Right micro tag */}
-            <span className="ml-1 px-2 py-0.5 text-[9px] tracking-widest uppercase font-bold rounded-sm"
-              style={{ background: "hsl(43 89% 53% / 0.12)", color: "hsl(43 89% 53% / 0.7)", border: "1px solid hsl(43 89% 53% / 0.2)" }}
+            {/* Inner: badge face */}
+            <div
+              className="relative inline-flex items-center gap-3 px-5 py-2.5"
+              style={{
+                background: "linear-gradient(135deg, hsl(220 30% 10% / 0.95), hsl(220 25% 7% / 0.98))",
+                borderRadius: "4px",
+                backdropFilter: "blur(12px)",
+              }}
             >
-              2025
-            </span>
+              {/* Corner accents */}
+              <span className="absolute top-0 left-0 w-2 h-2 border-t border-l" style={{ borderColor: "hsl(43 89% 53% / 0.6)" }} />
+              <span className="absolute top-0 right-0 w-2 h-2 border-t border-r" style={{ borderColor: "hsl(43 89% 53% / 0.6)" }} />
+              <span className="absolute bottom-0 left-0 w-2 h-2 border-b border-l" style={{ borderColor: "hsl(43 89% 53% / 0.6)" }} />
+              <span className="absolute bottom-0 right-0 w-2 h-2 border-b border-r" style={{ borderColor: "hsl(43 89% 53% / 0.6)" }} />
+
+              {/* Pulse dot */}
+              <span className="relative flex items-center justify-center w-4 h-4 flex-shrink-0">
+                <span className="absolute w-4 h-4 rounded-full animate-ping" style={{ background: "hsl(43 89% 53% / 0.3)", animationDuration: "2s" }} />
+                <span className="w-2 h-2 rounded-full" style={{ background: "hsl(43 89% 53%)", boxShadow: "0 0 8px hsl(43 89% 53% / 0.8)" }} />
+              </span>
+
+              <span className="text-gold text-xs tracking-[0.25em] uppercase font-semibold" style={{ fontFamily: "Inter, sans-serif", letterSpacing: "0.2em" }}>
+                Launching Soon.
+              </span>
+
+              {/* Right micro tag */}
+              <span className="ml-1 px-2 py-0.5 text-[9px] tracking-widest uppercase font-bold rounded-sm"
+                style={{ background: "hsl(43 89% 53% / 0.12)", color: "hsl(43 89% 53% / 0.7)", border: "1px solid hsl(43 89% 53% / 0.2)" }}
+              >
+                2025
+              </span>
+            </div>
           </div>
         </div>
 
