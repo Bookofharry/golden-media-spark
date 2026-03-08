@@ -50,61 +50,81 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Right: card with contact info */}
-          <div className="card-dark rounded-2xl p-8">
-            <div className="w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center mb-6 mx-auto">
-              <span className="text-background text-2xl font-bold" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
+          {/* Right: redesigned contact card */}
+          <div className="relative rounded-3xl overflow-hidden"
+            style={{ background: "linear-gradient(145deg, hsl(220 22% 9%), hsl(220 25% 6%))", border: "1px solid hsl(43 89% 53% / 0.15)" }}
+          >
+            {/* Top glow bar */}
+            <div className="absolute top-0 left-0 right-0 h-px" style={{ background: "linear-gradient(90deg, transparent, hsl(43 89% 53% / 0.8), transparent)" }} />
+            {/* Ambient glow */}
+            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-40 rounded-full pointer-events-none"
+              style={{ background: "radial-gradient(ellipse, hsl(43 89% 53% / 0.1) 0%, transparent 70%)" }}
+            />
+
+            {/* Header */}
+            <div className="relative px-8 pt-10 pb-8">
+              <div className="flex items-end gap-5 mb-1">
+                <div className="relative">
+                  <div className="w-16 h-16 rounded-2xl flex items-center justify-center"
+                    style={{ background: "linear-gradient(135deg, hsl(38 80% 38%), hsl(43 89% 53%), hsl(48 96% 66%))" }}
+                  >
+                    <span className="text-background text-2xl font-black tracking-tight" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
+                  </div>
+                  <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-gold border-2"
+                    style={{ borderColor: "hsl(220 25% 6%)", background: "hsl(var(--gold))" }}
+                  />
+                </div>
+                <div>
+                  <div className="text-foreground font-bold text-xl leading-tight" style={{ fontFamily: "Cinzel, serif" }}>Cloud X</div>
+                  <div className="shimmer-text font-bold text-xl leading-tight" style={{ fontFamily: "Cinzel, serif" }}>Creative Hub</div>
+                </div>
+              </div>
+              <p className="text-muted-foreground text-xs tracking-[0.3em] uppercase mt-4">… re-culturing the world</p>
             </div>
 
-            <div className="text-center mb-2">
-              <div className="text-foreground font-bold text-lg" style={{ fontFamily: "Cinzel, serif" }}>Cloud X Creative Hub</div>
-              <p className="text-gold text-xs tracking-[0.2em] uppercase mt-1">… re-culturing the world</p>
+            {/* Divider */}
+            <div className="mx-8 h-px" style={{ background: "linear-gradient(90deg, transparent, hsl(43 89% 53% / 0.25), transparent)" }} />
+
+            {/* Contact rows */}
+            <div className="px-8 py-6 space-y-1">
+              {[
+                { Icon: Phone, label: "Phone", value: "(+234) 802 – 603 – 9895", href: null },
+                { Icon: Mail, label: "Email", value: "Exceptionalcloud@gmail.com", href: "mailto:Exceptionalcloud@gmail.com" },
+                { Icon: MapPin, label: "Location", value: "Abuja, Nigeria", href: null },
+                { Icon: Youtube, label: "YouTube", value: "@jefftatv", href: "https://www.youtube.com/@jefftatv" },
+              ].map(({ Icon, label, value, href }) => (
+                <div key={label} className="group flex items-center gap-4 px-4 py-3 rounded-2xl transition-all duration-300 hover:bg-white/[0.03] cursor-default">
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:scale-110"
+                    style={{ background: "hsl(43 89% 53% / 0.08)", border: "1px solid hsl(43 89% 53% / 0.15)" }}
+                  >
+                    <Icon className="text-gold" size={16} />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-muted-foreground text-[10px] tracking-[0.2em] uppercase mb-0.5">{label}</div>
+                    {href ? (
+                      <a href={href} target="_blank" rel="noopener noreferrer"
+                        className="text-foreground text-sm font-medium truncate block hover:text-gold transition-colors duration-200">
+                        {value}
+                      </a>
+                    ) : (
+                      <div className="text-foreground text-sm font-medium truncate">{value}</div>
+                    )}
+                  </div>
+                  {href && (
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex-shrink-0"
+                      style={{ background: "hsl(43 89% 53% / 0.15)" }}
+                    >
+                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M1 7L7 1M7 1H3M7 1V5" stroke="hsl(43, 89%, 53%)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
 
-            <div className="h-px bg-gold/10 my-6" />
-
-            <div className="space-y-4">
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Phone className="text-gold" size={15} />
-                </div>
-                <div>
-                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Phone</div>
-                  <div className="text-foreground font-medium text-sm">(+234) 802 – 603 – 9895</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Mail className="text-gold" size={15} />
-                </div>
-                <div>
-                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Email</div>
-                  <a href="mailto:Exceptionalcloud@gmail.com" className="text-gold font-medium text-sm hover:underline">
-                    Exceptionalcloud@gmail.com
-                  </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <MapPin className="text-gold" size={15} />
-                </div>
-                <div>
-                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">Address</div>
-                  <div className="text-foreground font-medium text-sm">Abuja, Nigeria</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Youtube className="text-gold" size={15} />
-                </div>
-                <div>
-                  <div className="text-muted-foreground text-xs tracking-wide mb-0.5">YouTube</div>
-                  <a href="https://www.youtube.com/@jefftatv" target="_blank" rel="noopener noreferrer" className="text-gold font-medium text-sm hover:underline">
-                    youtube.com/@jefftatv
-                  </a>
-                </div>
-              </div>
-            </div>
+            {/* Bottom accent */}
+            <div className="absolute bottom-0 left-0 right-0 h-px" style={{ background: "linear-gradient(90deg, transparent, hsl(43 89% 53% / 0.3), transparent)" }} />
           </div>
         </div>
       </div>
