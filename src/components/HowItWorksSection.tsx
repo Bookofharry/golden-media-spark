@@ -1,4 +1,4 @@
-import { Upload, Heart, Globe } from "lucide-react";
+import { Upload, Users, Globe } from "lucide-react";
 
 const steps = [
   {
