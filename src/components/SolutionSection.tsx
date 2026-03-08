@@ -49,8 +49,19 @@ const SolutionSection = () => {
 
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6">
           Introducing{" "}
-          <span className="inline-block" style={{ perspective: "400px" }}>
-            <span className="shimmer-text inline-block animate-rotate-y">X-Cloud</span>
+          <span style={{ display: "inline-block", perspective: "600px" }}>
+            <span
+              className="inline-block animate-rotate-y"
+              style={{
+                background: "linear-gradient(90deg, hsl(38 80% 38%), hsl(48 96% 66%), hsl(43 89% 53%), hsl(48 96% 66%), hsl(38 80% 38%))",
+                backgroundSize: "200% auto",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
+                transformStyle: "preserve-3d",
+                willChange: "transform",
+              }}
+            >X-Cloud</span>
           </span>
         </h2>
 
