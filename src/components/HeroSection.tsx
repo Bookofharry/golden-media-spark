@@ -61,7 +61,7 @@ const HeroSection = () => {
               <span className="ml-1 px-2 py-0.5 text-[9px] tracking-widest uppercase font-bold rounded-sm"
                 style={{ background: "hsl(43 89% 53% / 0.12)", color: "hsl(43 89% 53% / 0.7)", border: "1px solid hsl(43 89% 53% / 0.2)" }}
               >
-                2025
+                2026
               </span>
             </div>
           </div>
@@ -110,7 +110,7 @@ const HeroSection = () => {
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
           {[
-            { value: "2025", label: "Launch Year" },
+            { value: "2026", label: "Launch Year" },
             { value: "100%", label: "Family Friendly" },
             { value: "∞", label: "Inspiring Stories" },
           ].map((stat) => (
