@@ -22,7 +22,7 @@ const AboutSection = () => {
             <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">About Us</span>
             <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 text-foreground leading-tight">
               Cloud X{" "}
-              <span className="shimmer-text">Creative Hub</span>
+              <span className="shimmer-text-slow">Creative Hub</span>
             </h2>
             <p className="text-muted-foreground mb-5 leading-relaxed text-lg">
               <span className="text-gold font-semibold">Cloud X Creative Hub Limited</span> is a social innovation and
