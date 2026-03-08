@@ -52,26 +52,17 @@ const AboutSection = () => {
 
           {/* Right: redesigned contact card */}
           <div className="relative rounded-3xl overflow-hidden"
-            style={{ background: "linear-gradient(145deg, hsl(220 22% 9%), hsl(220 25% 6%))", border: "1px solid hsl(43 89% 53% / 0.15)" }}
+            style={{ background: "hsl(220 22% 8%)", border: "1px solid hsl(43 89% 53% / 0.15)" }}
           >
-            {/* Top glow bar */}
-            <div className="absolute top-0 left-0 right-0 h-px" style={{ background: "linear-gradient(90deg, transparent, hsl(43 89% 53% / 0.8), transparent)" }} />
-            {/* Ambient glow */}
-            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-40 rounded-full pointer-events-none"
-              style={{ background: "radial-gradient(ellipse, hsl(43 89% 53% / 0.1) 0%, transparent 70%)" }}
-            />
-
             {/* Header */}
             <div className="relative px-8 pt-10 pb-8">
               <div className="flex items-end gap-5 mb-1">
                 <div className="relative">
-                  <div className="w-16 h-16 rounded-2xl flex items-center justify-center"
-                    style={{ background: "linear-gradient(135deg, hsl(38 80% 38%), hsl(43 89% 53%), hsl(48 96% 66%))" }}
-                  >
+                  <div className="w-16 h-16 rounded-2xl flex items-center justify-center bg-gold">
                     <span className="text-background text-2xl font-black tracking-tight" style={{ fontFamily: "Cinzel, serif" }}>CX</span>
                   </div>
-                  <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-gold border-2"
-                    style={{ borderColor: "hsl(220 25% 6%)", background: "hsl(var(--gold))" }}
+                  <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full border-2"
+                    style={{ borderColor: "hsl(220 22% 8%)", background: "hsl(var(--gold))" }}
                   />
                 </div>
                 <div>
@@ -83,7 +74,7 @@ const AboutSection = () => {
             </div>
 
             {/* Divider */}
-            <div className="mx-8 h-px" style={{ background: "linear-gradient(90deg, transparent, hsl(43 89% 53% / 0.25), transparent)" }} />
+            <div className="mx-8 h-px bg-gold/10" />
 
             {/* Contact rows */}
             <div className="px-8 py-6 space-y-1">
