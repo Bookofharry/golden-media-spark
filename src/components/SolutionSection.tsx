@@ -4,7 +4,7 @@ const features = [
   {
     icon: Heart,
     title: "Family-Friendly Content",
-    desc: "Every piece of content is curated and verified to be safe for all ages — zero compromises.",
+    desc: "Every piece of content is curated and verified to be safe for all ages. Zero compromises.",
   },
   {
     icon: Tv2,
