@@ -19,7 +19,7 @@ const VisionSection = () => {
         <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">Our Vision</span>
 
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mt-6 mb-8 leading-tight">
-          <span className="shimmer-text">Stories That</span>
+          <span className="shimmer-text-slow">Stories That</span>
           <br />
           <span className="text-foreground">Shape Culture</span>
         </h2>

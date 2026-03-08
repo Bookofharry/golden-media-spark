@@ -29,7 +29,7 @@ const WaitlistSection = () => {
 
          <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 text-foreground leading-tight">
            Be Among the First to{" "}
-           <span className="shimmer-text">Experience X-Cloud</span>
+           <span className="shimmer-text-slow">Experience X-Cloud</span>
          </h2>
 
         <p className="text-muted-foreground text-lg mb-10">

@@ -67,7 +67,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <div className="text-foreground font-bold text-xl leading-tight" style={{ fontFamily: "Cinzel, serif" }}>Cloud X</div>
-                  <div className="shimmer-text font-bold text-xl leading-tight" style={{ fontFamily: "Cinzel, serif" }}>Creative Hub</div>
+                 <div className="shimmer-text-slow font-bold text-xl leading-tight" style={{ fontFamily: "Cinzel, serif" }}>Creative Hub</div>
                 </div>
               </div>
               <p className="text-muted-foreground text-xs tracking-[0.3em] uppercase mt-4">… re-culturing the world</p>
