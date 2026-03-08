@@ -242,7 +242,8 @@
   .animate-rotate-y {
     animation: none;
   }
-  .shimmer-text {
+  .shimmer-text,
+  .shimmer-text-slow {
     animation: none;
     -webkit-text-fill-color: hsl(var(--gold));
     color: hsl(var(--gold));
