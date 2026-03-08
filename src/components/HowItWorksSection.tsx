@@ -30,10 +30,9 @@ const HowItWorksSection = () => {
         <div className="text-center mb-4">
           <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">How It Works</span>
         </div>
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-6 text-foreground">
-          Simple. Purposeful.{" "}
-          <span className="text-gold glow-gold">Transformative.</span>
-        </h2>
+         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6 text-foreground">
+           <span className="shimmer-text">Simple. Purposeful. Transformative.</span>
+         </h2>
         <p className="text-muted-foreground text-center max-w-xl mx-auto mb-16 text-lg">
           X-Cloud works in three powerful steps that connect creators with communities around the world.
         </p>
