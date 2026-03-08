@@ -28,7 +28,7 @@ const HeroSection = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 mb-8 animate-fade-up">
           <div className="w-2 h-2 rounded-full bg-gold animate-pulse" />
-          <span className="text-gold text-xs tracking-widest uppercase font-medium">Launching Soon. Join the Waitlist</span>
+          <span className="text-gold text-xs tracking-widest uppercase font-medium">Launching Soon.</span>
         </div>
 
         {/* Main headline */}
