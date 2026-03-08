@@ -35,7 +35,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up"
           style={{ animationDelay: "0.1s", opacity: 0 }}
         >
-          <span className="shimmer-text">Re-Culturing</span>
+          <span className="shimmer-text-slow">Re-Culturing</span>
           <br />
           <span className="text-foreground">the World Through</span>
           <br />
