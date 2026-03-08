@@ -110,7 +110,7 @@ const HeroSection = () => {
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
           {[
-            { value: "2025", label: "Launch Year" },
+            { value: "2026", label: "Launch Year" },
             { value: "100%", label: "Family Friendly" },
             { value: "∞", label: "Inspiring Stories" },
           ].map((stat) => (
