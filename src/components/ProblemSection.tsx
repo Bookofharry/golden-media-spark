@@ -30,10 +30,10 @@ const ProblemSection = () => {
           <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">The Problem</span>
         </div>
 
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-6 text-foreground">
-          The Internet Needs{" "}
-          <span className="text-gold glow-gold">Better Stories</span>
-        </h2>
+         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6 text-foreground">
+           The Internet Needs{" "}
+           <span className="shimmer-text">Better Stories</span>
+         </h2>
 
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16 text-lg leading-relaxed">
           Most platforms are engineered for addiction, not inspiration. Millions of families, creators,
