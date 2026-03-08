@@ -27,10 +27,10 @@ const WaitlistSection = () => {
       <div className="max-w-2xl mx-auto text-center">
         <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">Early Access</span>
 
-        <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 text-foreground leading-tight">
-          Be Among the First to{" "}
-          <span className="text-gold glow-gold">Experience X-Cloud</span>
-        </h2>
+         <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 text-foreground leading-tight">
+           Be Among the First to{" "}
+           <span className="shimmer-text">Experience X-Cloud</span>
+         </h2>
 
         <p className="text-muted-foreground text-lg mb-10">
           Join our founding community. Get early access, exclusive updates, and be part of shaping
