@@ -44,7 +44,7 @@ const ProblemSection = () => {
           {problems.map(({ icon: Icon, title, desc }) => (
             <div
               key={title}
-              className="card-dark rounded-2xl p-8 group hover:border-gold/30 transition-all duration-500 hover:shadow-gold"
+              className="card-dark rounded-2xl p-8 group hover:border-gold/30 transition-all duration-500"
             >
               <div className="w-14 h-14 rounded-xl bg-destructive/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Icon className="text-destructive" size={24} />
