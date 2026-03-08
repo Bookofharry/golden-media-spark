@@ -24,7 +24,7 @@ const features = [
   {
     icon: Star,
     title: "Positive Storytelling",
-    desc: "An algorithm that rewards meaningful, uplifting content — not just what goes viral.",
+    desc: "An algorithm that rewards meaningful, uplifting content. Not what goes viral.",
   },
   {
     icon: MessageCircle,
