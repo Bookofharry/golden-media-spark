@@ -1,4 +1,4 @@
-import { Upload, Heart, Globe } from "lucide-react";
+import { Upload, Users, Globe } from "lucide-react";
 
 const steps = [
   {
@@ -8,7 +8,7 @@ const steps = [
     desc: "Artists, filmmakers, educators, and storytellers share their work on a platform built to amplify purpose-driven creativity.",
   },
   {
-    icon: Heart,
+    icon: Users,
     step: "02",
     title: "Community Discovers Clean Entertainment",
     desc: "Families and communities browse curated feeds, channels, and streaming libraries. Everything on the platform is guaranteed family-friendly.",
