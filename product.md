@@ -313,7 +313,7 @@ The single-page landing app is structured as follows, in order:
 | Public launch              | 🔲 Planned      | 2026       |
 
 ### Next Technical Steps
-1. **Connect Lovable Cloud** — enable database to persist waitlist signups
+1. **Connect cloud backend** — enable database to persist waitlist signups
 2. **Waitlist backend** — store name + email in database, send confirmation email
 3. **Social media links** — update Twitter, LinkedIn, Instagram URLs in Footer
 4. **SEO metadata** — add Open Graph tags, JSON-LD, meta descriptions
